@@ -4,11 +4,15 @@ const Navbar = () => {
     return (
         <header>
             <div className="container">
-                <div className="container">
-                    <Link to="/">
+                <Link to="/">
                     <h1>Workout Buddy</h1>
-                    </Link>
-                </div>
+                </Link>
+                <nav>
+                    <div>
+                        <Link to="/login">Login</Link>
+                        <Link to="/signup">Signup</Link>
+                    </div>
+                </nav>
             </div>
         </header>
     )
